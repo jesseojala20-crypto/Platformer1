@@ -36,7 +36,9 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	
 	MovePlatform(DeltaTime);
+	RotatingPlatform(DeltaTime);
 }
 
 void AMovingPlatform::MovePlatform(float DeltaTime)
@@ -47,8 +49,7 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 	SetActorLocation(CurrentLocation);
 
 }
-
-void AMovingPlatform::RotatingPlatform(float DeltaTime)
+void AMovingPlatform::RotatingPlatform(float Deltatime)
 {
-	UE_LOG(LogTemp, Display, TEXT("This will rotate the platform"));
+	// rotate the platform
 }
