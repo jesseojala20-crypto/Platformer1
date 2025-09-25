@@ -33,3 +33,5 @@ public:
 	UPROPERTY(EditAnywhere)
 	FVector TestVector1 = FVector(1.0f, 1.0f, 1.0f);
 };
+
+
