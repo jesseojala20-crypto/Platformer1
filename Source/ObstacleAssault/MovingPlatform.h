@@ -29,4 +29,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	FVector PlatFormVelocity = FVector(0.0f, 0.0f, 0.0f);
+
+	UPROPERTY(EditAnywhere)
+	FVector TestVector1 = FVector(1.0f, 1.0f, 1.0f);
 };
