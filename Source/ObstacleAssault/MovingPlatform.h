@@ -28,7 +28,7 @@ public:
 	void RotatingPlatform(float DeltaTime);
 
 	UPROPERTY(EditAnywhere)
-	FVector PlatFormVelocity = FVector(0.0f, 0.0f, 0.0f);
+	FVector PlatFormVelocity = FVector(0.0f, 0.0f, 0.0f); // this here gives the direction variable to the object
 
 	UPROPERTY(EditAnywhere)
 	float MoveLocation = 100.0f;
