@@ -29,6 +29,14 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	FVector PlatFormVelocity = FVector(0.0f, 0.0f, 0.0f);
+
+	UPROPERTY(EditAnywhere)
+	float MoveLocation = 100.0f;
+
+	UPROPERTY(VisibleAnywhere) // this here tells the moved distance of the object
+	float MovedDistance = 0.0f;
+
+	FVector Starting_Location;
 };
 
 
